@@ -35,6 +35,7 @@ while True:
             temp_svc.temperature = (
                 microcontroller.cpu.temperature
             )
+
             temp_last_update = microcontroller.nvm
 
             temp_last_update = now_msecs
